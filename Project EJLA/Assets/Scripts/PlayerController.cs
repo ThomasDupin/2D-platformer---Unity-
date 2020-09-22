@@ -13,10 +13,10 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheckPoint;
     public LayerMask whatIsGround;
 
-    public ParticleSystem footsteps;
+   public ParticleSystem footsteps;
     private ParticleSystem.EmissionModule footEmission;
 
-    //public ParticleSystem impactEffect;
+    public ParticleSystem impactEffect;
    // private bool wasOnGround;
     public Transform camTarget;
     public float aheadAmount, aheadSpeed;
